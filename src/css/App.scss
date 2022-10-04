@@ -1,0 +1,59 @@
+:root {
+  --e-cl-pri: #664de5;
+  --e-cl-pri-50pc: #664de580;
+  --e-cl-tx-pri: #151b28;
+  --e-cl-tx-sec: #5c6984;
+  --e-cl-tx-sec-50pc: #5c698480;
+  --e-cl-border: #eaeef5;
+  --e-cl-border-50pc: #eaeef580;
+  --e-cl-bg: #ffffff;
+  --e-cl-neg: red;
+  --e-r-default: 8px;
+  --e-r-round: 999px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  color: var(--e-cl-tx-pri);
+  line-height: 1.5;
+}
+
+body {
+  padding: 0 2.4rem;
+}
+
+.onboarding {
+  padding-top: 10%;
+
+  .progress-bar {
+    margin-top: 8rem;
+    margin-bottom: 9.6rem;
+
+    @media (max-width: 480px) {
+      margin-top: 4.8rem;
+      margin-bottom: 5.6rem;
+    }
+  }
+}
+
+// helpers
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  &.large {
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+}
+
+@import "./normalize.scss";

@@ -1,0 +1,15 @@
+.button {
+  white-space: nowrap;
+  line-height: 1;
+  padding: 1.6rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  border-radius: var(--e-r-default);
+  border: 1px solid var(--e-cl-pri);
+  font-weight: 500;
+
+  &.primary {
+    background-color: var(--e-cl-pri);
+    color: var(--e-cl-bg);
+  }
+}

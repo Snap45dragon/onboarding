@@ -1,0 +1,15 @@
+.header {
+  text-align: center;
+  .title {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+    @media (max-width: 480px) {
+      font-size: 2.8rem;
+    }
+  }
+  .subtitle {
+    color: var(--e-cl-tx-sec);
+    font-size: 1.6rem;
+  }
+}

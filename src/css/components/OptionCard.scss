@@ -1,0 +1,30 @@
+.option-card {
+  border: 1px solid var(--e-cl-border);
+  border-radius: var(--e-r-default);
+  padding: 2.4rem;
+  cursor: pointer;
+
+  .title {
+    margin-top: 1.6rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .desc {
+    font-size: 1.4rem;
+    color: var(--e-cl-tx-sec);
+  }
+
+  &.active {
+    border-color: var(--e-cl-pri);
+
+    .icon {
+      color: var(--e-cl-pri);
+    }
+  }
+
+  &.error {
+    border-color: var(--e-cl-neg);
+  }
+}

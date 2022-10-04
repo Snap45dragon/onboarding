@@ -1,0 +1,39 @@
+{
+    "common": {
+        "eden": "Eden",
+        "base_url": "www.eden.com/",
+        "create_workspace": "Create Workspace",
+        "full_name": "Full Name",
+        "display_name": "Display Name",
+        "full_name_ph": "Steve Jobs",
+        "display_name_ph": "Steve",
+        "workspace_name": "Workspace Name",
+        "workspace_name_ph": "Eden",
+        "workspace_url": "Workspace URL",
+        "workspace_url_ph": "Example",
+        "optional": "optional",
+        "for_myself": "For myself",
+        "for_myself_desc": "Write better. Think more clearly. Stay organized.",
+        "with_my_team": "With my team",
+        "with_my_team_desc": "Wikis, docs, tasks & projects, all in one place.",
+        "launch_eden": "Launch Eden"
+    },
+    "onboarding": {
+        "step1": {
+            "title": "Welcome! First things first...",
+            "subtitle": "You can always change them later."
+        },
+        "step2": {
+            "title": "Let's set up a home for all your work",
+            "subtitle": "You can always create another workspace later."
+        },
+        "step3": {
+            "title": "How are you planning to use Eden?",
+            "subtitle": "We'll streamline your setup experience accordingly"
+        },
+        "step4": {
+            "title": "Congratulations, ",
+            "subtitle": "You have completed onboarding, you can start using the Eden!"
+        }
+    }
+}

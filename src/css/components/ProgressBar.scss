@@ -1,0 +1,64 @@
+.progress-bar {
+  display: flex;
+  .status {
+    display: flex;
+    align-items: center;
+    .wrapper {
+      display: flex;
+      border-radius: var(--e-r-round);
+      border: 1px solid var(--e-cl-border);
+      height: 4rem;
+      width: 4rem;
+      align-items: center;
+      justify-content: center;
+      .number {
+        font-size: 1.4rem;
+      }
+
+      @media (max-width: 480px) {
+        height: 3.2rem;
+        width: 3.2rem;
+        .number {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    &::before,
+    &::after {
+      display: block;
+      content: "";
+      width: 3.2rem;
+      height: 1px;
+      border-bottom: 1px solid var(--e-cl-border);
+    }
+
+    &:first-child::before {
+      display: none;
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+
+    &.active {
+      .wrapper {
+        border-color: var(--e-cl-pri);
+        background-color: var(--e-cl-pri);
+        color: var(--e-cl-bg);
+      }
+
+      &::before,
+      &::after {
+        border-color: var(--e-cl-pri);
+      }
+    }
+
+    @media (max-width: 480px) {
+      &::before,
+      &::after {
+        width: 2.4rem;
+      }
+    }
+  }
+}
